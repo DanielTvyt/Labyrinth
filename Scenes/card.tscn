@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://swb0xqohu8so"]
+
+[ext_resource type="Script" uid="uid://d0ktfe8jwjeyw" path="res://Scripts/Card.cs" id="1_wf8id"]
+[ext_resource type="Texture2D" uid="uid://cjn4hu85dveg5" path="res://example/assets/card_clubs_02.png" id="2_brehn"]
+
+[node name="Card" type="Node3D" unique_id=1296733783]
+script = ExtResource("1_wf8id")
+
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=1513598935]
+texture = ExtResource("2_brehn")

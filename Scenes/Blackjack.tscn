@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dd3vtc24y1meb"]
+
+[ext_resource type="Script" uid="uid://dx5qcd6fywtxx" path="res://Scripts/Blackjack.cs" id="1_jrwgc"]
+[ext_resource type="PackedScene" uid="uid://swb0xqohu8so" path="res://Scenes/card.tscn" id="2_jrwgc"]
+
+[node name="Node3D" type="Node3D" unique_id=818610495]
+script = ExtResource("1_jrwgc")
+CardObject = ExtResource("2_jrwgc")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=758336830]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.7050102)
