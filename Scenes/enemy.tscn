@@ -51,10 +51,11 @@ script = ExtResource("1_hghv2")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=365772637]
 
 [node name="Cube" type="MeshInstance3D" parent="MeshInstance3D" unique_id=532440998]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.058981895, 0.0020838082)
+transform = Transform3D(0.735, 0, 0, 0, 0.735, 0, 0, 0, 0.735, 0, 0.058981895, 0.0020838082)
 mesh = SubResource("ArrayMesh_ne65n")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=294386987]
+transform = Transform3D(0.735, 0, 0, 0, 0.735, 0, 0, 0, 0.735, 0, 0, 0)
 shape = SubResource("ConcavePolygonShape3D_hghv2")
 
 [node name="NavigationAgent3D" type="NavigationAgent3D" parent="." unique_id=1358928220]
