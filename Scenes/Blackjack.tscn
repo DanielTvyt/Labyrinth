@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://22t7mqug1ps5" path="res://Assets/OppSitting.fbx" id="5_16odx"]
 [ext_resource type="PackedScene" uid="uid://c6sityeju37sw" path="res://Assets/Wall.fbx" id="7_taswr"]
 [ext_resource type="Script" uid="uid://bov0r2q1wu18v" path="res://Scripts/Scores.cs" id="7_uhsg0"]
+[ext_resource type="FontFile" uid="uid://bwv4101j5x1c7" path="res://Assets/PIXY.ttf" id="8_uhsg0"]
 
 [sub_resource type="Environment" id="Environment_taswr"]
 background_mode = 1
@@ -56,10 +57,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.696, -2.878, -5.914)
 pixel_size = 0.01
 text = "0
 "
-outline_size = 10
+font = ExtResource("8_uhsg0")
+font_size = 40
+outline_size = 0
 
 [node name="Label3D2" type="Label3D" parent="Scores" unique_id=2070526410]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.76977, -1.7438556, -5.8910947)
 pixel_size = 0.01
 text = "0"
-outline_size = 10
+font = ExtResource("8_uhsg0")
+font_size = 35
+outline_size = 0
