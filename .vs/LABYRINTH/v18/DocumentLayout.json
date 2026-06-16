@@ -1,42 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\",
+  "WorkspaceRootPath": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\downloads\\labyrinth-master\\labyrinth-master\\scripts\\blackjack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\documents\\github\\labyrinth\\scripts\\blackjack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|solutionrelative:scripts\\blackjack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\downloads\\labyrinth-master\\labyrinth-master\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\downloads\\labyrinth-master\\labyrinth-master\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\documents\\github\\labyrinth\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|solutionrelative:scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\downloads\\labyrinth-master\\labyrinth-master\\scripts\\flicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|solutionrelative:scripts\\flicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\documents\\github\\labyrinth\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scripts\\Camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\Camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\documents\\github\\labyrinth\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|solutionrelative:scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\downloads\\labyrinth-master\\labyrinth-master\\scenes\\camera3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\documents\\github\\labyrinth\\scenes\\camera3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|solutionrelative:scenes\\camera3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\downloads\\labyrinth-master\\labyrinth-master\\scenes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\documents\\github\\labyrinth\\scripts\\flicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|solutionrelative:scripts\\flicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\documents\\github\\labyrinth\\scenes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|solutionrelative:scenes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\downloads\\labyrinth-master\\labyrinth-master\\scripts\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\documents\\github\\labyrinth\\scripts\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|solutionrelative:scripts\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\downloads\\labyrinth-master\\labyrinth-master\\scripts\\scores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\documents\\github\\labyrinth\\scripts\\scores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|solutionrelative:scripts\\scores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|c:\\users\\danie\\documents\\github\\labyrinth\\labyrinth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{14B2CF30-524B-4EB1-96D7-5848FB8CB9DE}|Labyrinth.csproj|solutionrelative:labyrinth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,11 +74,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "Labyrinth",
+              "DocumentMoniker": "C:\\USERS\\DANIE\\DOCUMENTS\\GITHUB\\LABYRINTH\\Labyrinth.csproj",
+              "RelativeDocumentMoniker": "Labyrinth.csproj",
+              "ToolTip": "C:\\USERS\\DANIE\\DOCUMENTS\\GITHUB\\LABYRINTH\\Labyrinth.csproj",
+              "RelativeToolTip": "Labyrinth.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-16T18:06:19.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Camera3d.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scenes\\Camera3d.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scenes\\Camera3d.cs",
               "RelativeDocumentMoniker": "Scenes\\Camera3d.cs",
-              "ToolTip": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scenes\\Camera3d.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scenes\\Camera3d.cs",
               "RelativeToolTip": "Scenes\\Camera3d.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -83,65 +100,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scenes\\Player.cs",
-              "RelativeDocumentMoniker": "Scenes\\Player.cs",
-              "ToolTip": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scenes\\Player.cs",
-              "RelativeToolTip": "Scenes\\Player.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwEwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:29:13.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Scores.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scripts\\Scores.cs",
-              "RelativeDocumentMoniker": "Scripts\\Scores.cs",
-              "ToolTip": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scripts\\Scores.cs",
-              "RelativeToolTip": "Scripts\\Scores.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T10:53:19.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Camera.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scripts\\Camera.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scripts\\Camera.cs",
               "RelativeDocumentMoniker": "Scripts\\Camera.cs",
-              "ToolTip": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scripts\\Camera.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scripts\\Camera.cs",
               "RelativeToolTip": "Scripts\\Camera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-16T10:04:34.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scenes\\Player.cs",
+              "RelativeDocumentMoniker": "Scenes\\Player.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scenes\\Player.cs",
+              "RelativeToolTip": "Scenes\\Player.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:29:13.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Scores.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scripts\\Scores.cs",
+              "RelativeDocumentMoniker": "Scripts\\Scores.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scripts\\Scores.cs",
+              "RelativeToolTip": "Scripts\\Scores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T10:53:19.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Flicker.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scripts\\Flicker.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scripts\\Flicker.cs",
               "RelativeDocumentMoniker": "Scripts\\Flicker.cs",
-              "ToolTip": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scripts\\Flicker.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scripts\\Flicker.cs",
               "RelativeToolTip": "Scripts\\Flicker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T21:26:36.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T21:26:36.48Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Blackjack.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scripts\\Blackjack.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scripts\\Blackjack.cs",
               "RelativeDocumentMoniker": "Scripts\\Blackjack.cs",
-              "ToolTip": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scripts\\Blackjack.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scripts\\Blackjack.cs",
               "RelativeToolTip": "Scripts\\Blackjack.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAIwNoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T11:27:37.956Z",
               "EditorCaption": ""
@@ -150,17 +164,17 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Main.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Main.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Main.cs",
               "RelativeToolTip": "Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-16T17:34:07.803Z",
               "EditorCaption": ""
@@ -169,24 +183,23 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Ui.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scripts\\Ui.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scripts\\Ui.cs",
               "RelativeDocumentMoniker": "Scripts\\Ui.cs",
-              "ToolTip": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scripts\\Ui.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scripts\\Ui.cs",
               "RelativeToolTip": "Scripts\\Ui.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAcwC0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T19:38:46.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T19:38:46.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scripts\\Card.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scripts\\Card.cs",
               "RelativeDocumentMoniker": "Scripts\\Card.cs",
-              "ToolTip": "C:\\Users\\danie\\Downloads\\Labyrinth-master\\Labyrinth-master\\Scripts\\Card.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Labyrinth\\Scripts\\Card.cs",
               "RelativeToolTip": "Scripts\\Card.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAIAwwC8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T13:18:47.05Z",
               "EditorCaption": ""

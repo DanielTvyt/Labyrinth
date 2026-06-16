@@ -176,7 +176,7 @@ public partial class Blackjack : Node3D
         {
             if (!card.IsFaceUp)
             {
-                if (card.GetValue() == 11 && score == 10)
+                if (card.GetValue() + score == 21)
                 {
                     card.FlipCard();
                     GetDealerScore();

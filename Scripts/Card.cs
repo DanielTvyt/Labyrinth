@@ -36,7 +36,7 @@ public partial class Card : Node3D
 
 	public void FlipCard()
     {
-        IsFaceUp = !IsFaceUp;
+        IsFaceUp = true;
         texture.Texture = GetCardTexture();
     }
 

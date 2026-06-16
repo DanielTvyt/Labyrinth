@@ -4,4 +4,8 @@
     <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
     <EnableDynamicLoading>true</EnableDynamicLoading>
   </PropertyGroup>
+  <ItemGroup>
+    <!-- Exclude duplicate files copied into Labyrinth-master (created when uploading/cloning). This avoids duplicate type definitions. -->
+    <Compile Remove="Labyrinth-master\**\*.cs" />
+  </ItemGroup>
 </Project>
