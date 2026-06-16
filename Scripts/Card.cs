@@ -11,25 +11,51 @@ public partial class Card : Node3D
 	[Export]
     private Sprite3D texture;
 
-    public Card(int value, int suit, bool isFaceUp)
+    public void Init(int value, int suit, bool isFaceUp)
 	{
-		this.Value = value;
+        //GD.Print("Card.cs is loading...");
+        this.Value = value;
 		this.Suit = suit;
 		this.IsFaceUp = isFaceUp;
 		texture.Texture = GetCardTexture();
     }
 
-	private Texture2D GetCardTexture()
+	public int GetValue()
 	{
-		int id = Suit * 13 + Value;
-		string path = $"res://assets/cards/{id}_kerenel_Cards.png";
+		if (Value > 10)
+        {
+            return 10;
+        }
+		if (Value == 1)
+		{
+            return 11;
 
+        }
+        return Value;
+    }
+
+	public void FlipCard()
+    {
+        IsFaceUp = !IsFaceUp;
+        texture.Texture = GetCardTexture();
+    }
+
+    private Texture2D GetCardTexture()
+	{
+        if (!IsFaceUp)
+        {
+            return GD.Load<Texture2D>("res://Assets/kerenel_Cards_seperated/CardFaceDown.png");
+        }
+		int id = Suit * 13 + Value + Suit;
+		string path = $"res://Assets/kerenel_Cards_seperated/{id:00}_kerenel_Cards.png";
+		//GD.Print($"Loading card texture from: {path}");
         return GD.Load<Texture2D>(path);
     }
+    // Hart 1-13, Pik 15-27, diamonds 29-41, clubs 43-55
+
 
     public override void _Ready()
 	{
-		GD.Print("Card.cs is loading...");
         //GD.Print("Card.cs is ready! Value: " + Value + " Suit: " + Suit + " is face up? " + IsFaceUp);
     }
 

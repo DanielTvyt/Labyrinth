@@ -1,11 +1,65 @@
 [gd_scene format=3 uid="uid://dd3vtc24y1meb"]
 
 [ext_resource type="Script" uid="uid://dx5qcd6fywtxx" path="res://Scripts/Blackjack.cs" id="1_jrwgc"]
-[ext_resource type="PackedScene" uid="uid://swb0xqohu8so" path="res://Scenes/card.tscn" id="2_jrwgc"]
+[ext_resource type="Script" uid="uid://ch8iqrbft5t74" path="res://Scripts/Camera.cs" id="2_5n3fu"]
+[ext_resource type="Texture2D" uid="uid://dmy7jhnmry8vi" path="res://Assets/BackgroundBJ.jpeg" id="3_jxxvy"]
+[ext_resource type="Script" uid="uid://bd2xq3xecu4ux" path="res://Scripts/Flicker.cs" id="4_b1qfi"]
+[ext_resource type="PackedScene" uid="uid://22t7mqug1ps5" path="res://Assets/OppSitting.fbx" id="5_16odx"]
+[ext_resource type="PackedScene" uid="uid://c6sityeju37sw" path="res://Assets/Wall.fbx" id="7_taswr"]
+[ext_resource type="Script" uid="uid://bov0r2q1wu18v" path="res://Scripts/Scores.cs" id="7_uhsg0"]
 
-[node name="Node3D" type="Node3D" unique_id=818610495]
+[sub_resource type="Environment" id="Environment_taswr"]
+background_mode = 1
+background_energy_multiplier = 0.0
+
+[node name="Node3D" type="Node3D" unique_id=818610495 node_paths=PackedStringArray("ui", "flicker", "camera")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0)
 script = ExtResource("1_jrwgc")
-CardObject = ExtResource("2_jrwgc")
+ui = NodePath("Scores")
+flicker = NodePath("OmniLight3D")
+camera = NodePath("Camera3D")
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=758336830]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.7050102)
+transform = Transform3D(1, 0, 0, 0, 0.9835557, -0.18060496, 0, 0.18060496, 0.9835557, 0, -0.45226645, 1.7050102)
+environment = SubResource("Environment_taswr")
+script = ExtResource("2_5n3fu")
+
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=29617869]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.685824)
+gi_mode = 2
+transparent = false
+shaded = true
+texture = ExtResource("3_jxxvy")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1402922404]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8.385553)
+light_color = Color(1, 0.65087485, 0.5759209, 1)
+light_energy = 10.255
+shadow_enabled = true
+omni_range = 15.707
+script = ExtResource("4_b1qfi")
+
+[node name="OppSitting" parent="." unique_id=2057931486 instance=ExtResource("5_16odx")]
+transform = Transform3D(-9.929871e-16, -8.3270194e-08, -1.905, -1.905, 2.2716897e-08, 0, 2.2716897e-08, 1.905, -8.3270194e-08, 0, 5.440629, -7.012741)
+
+[node name="Wall" parent="." unique_id=1370780186 instance=ExtResource("7_taswr")]
+transform = Transform3D(6.181067e-15, 1.4140633e-07, 3.235, 3.235, -1.4140633e-07, 0, 1.4140633e-07, 3.235, -1.4140633e-07, 17.41062, 10.692764, -7.976597)
+
+[node name="Scores" type="Node3D" parent="." unique_id=1260364336 node_paths=PackedStringArray("playerScoreLabel", "dealerScoreLabel")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.638346, 2.8267257, 4.0946445)
+script = ExtResource("7_uhsg0")
+playerScoreLabel = NodePath("Label3D")
+dealerScoreLabel = NodePath("Label3D2")
+
+[node name="Label3D" type="Label3D" parent="Scores" unique_id=485929202]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.696, -2.878, -5.914)
+pixel_size = 0.01
+text = "0
+"
+outline_size = 10
+
+[node name="Label3D2" type="Label3D" parent="Scores" unique_id=2070526410]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.76977, -1.7438556, -5.8910947)
+pixel_size = 0.01
+text = "0"
+outline_size = 10
