@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://iarcvvj3da6v"]
 
-[ext_resource type="Script" uid="uid://dtxwki7ht8ufx" path="res://scenes/Player.cs" id="1_3vyb7"]
-[ext_resource type="Script" uid="uid://ctmvl565m0fkc" path="res://scenes/Camera3d.cs" id="2_g2els"]
+[ext_resource type="Script" uid="uid://dtxwki7ht8ufx" path="res://Scripts/Player.cs" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://ctmvl565m0fkc" path="res://Scripts/Camera3d.cs" id="2_g2els"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_u8vuu"]
 

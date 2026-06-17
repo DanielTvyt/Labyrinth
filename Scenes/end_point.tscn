@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cym28mscu6k0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hdp8f"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_jy4fe"]
+
+[node name="EndPoint" type="StaticBody3D" unique_id=1016467555]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1161316229]
+shape = SubResource("BoxShape3D_hdp8f")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D" unique_id=399504881]
+mesh = SubResource("BoxMesh_jy4fe")
