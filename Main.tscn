@@ -23,7 +23,7 @@ transform = Transform3D(1, 0, 0, 0, 0.85034305, 0.5262287, 0, -0.5262287, 0.8503
 shadow_enabled = true
 
 [node name="CharacterBody3D" parent="." unique_id=208490810 instance=ExtResource("1_glv2v")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.1075, 0.6788001, -1.6334553)
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -14.367604, 0.6788001, -0.9263096)
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="." unique_id=114817271]
 navigation_mesh = SubResource("NavigationMesh_cm0pq")

@@ -10,19 +10,39 @@ public partial class Enemy : CharacterBody3D
 	[Export]
 	Node3D target;
 
-	NavigationAgent3D _navigationAgent;	
+	NavigationAgent3D _navigationAgent;
+
+    [Export]
+    float spawnCooldown = 2f;
 
     public override void _PhysicsProcess(double delta)
     {
-		_navigationAgent.TargetPosition = target.GlobalPosition;
+        if (spawnCooldown > 0)
+            spawnCooldown -= (float) delta;
+
+
+        _navigationAgent.TargetPosition = target.GlobalPosition;
 
         Vector3 currentLocation = GlobalTransform.Origin;
 		Vector3 nextLocation = _navigationAgent.GetNextPathPosition();
 		Vector3 direction = (nextLocation - currentLocation).Normalized();
 
-        Velocity = direction * speed;
+        Velocity = direction * speed * (float)delta * 100;
 
-        this.MoveAndSlide();
+        
+
+        MoveAndSlide();
+        for (int i = 0; i < GetSlideCollisionCount(); i++)
+        {
+            var collision = GetSlideCollision(i);
+            GD.Print("I collided with ", ((Node)collision.GetCollider()).Name);
+            if(((Node)collision.GetCollider()).Name == "CharacterBody3D")
+            {
+                Input.MouseMode = Input.MouseModeEnum.Visible;
+                GetTree().ChangeSceneToFile("res://Scenes/Blackjack.tscn");
+            }
+        }
+
         base._PhysicsProcess(delta);
     }
 

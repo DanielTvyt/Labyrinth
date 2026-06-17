@@ -8,14 +8,16 @@
 [ext_resource type="PackedScene" uid="uid://c6sityeju37sw" path="res://Assets/Wall.fbx" id="7_taswr"]
 [ext_resource type="Script" uid="uid://bov0r2q1wu18v" path="res://Scripts/Scores.cs" id="7_uhsg0"]
 [ext_resource type="FontFile" uid="uid://bwv4101j5x1c7" path="res://Assets/PIXY.ttf" id="8_uhsg0"]
+[ext_resource type="Script" uid="uid://bpos0u86mr2h7" path="res://Scripts/Button.cs" id="9_l3tqr"]
 
 [sub_resource type="Environment" id="Environment_taswr"]
 background_mode = 1
 background_energy_multiplier = 0.0
 
-[node name="Node3D" type="Node3D" unique_id=818610495 node_paths=PackedStringArray("ui", "flicker", "camera")]
+[node name="Node3D" type="Node3D" unique_id=818610495 node_paths=PackedStringArray("GameOverScreen", "ui", "flicker", "camera")]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0)
 script = ExtResource("1_jrwgc")
+GameOverScreen = NodePath("Ui")
 ui = NodePath("Scores")
 flicker = NodePath("OmniLight3D")
 camera = NodePath("Camera3D")
@@ -61,6 +63,16 @@ font = ExtResource("8_uhsg0")
 font_size = 40
 outline_size = 0
 
+[node name="Label3D3" type="Label3D" parent="Scores" unique_id=57738099]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.632248, -4.186614, -5.914)
+pixel_size = 0.0075
+text = "space to hit
+esc to stand
+"
+font = ExtResource("8_uhsg0")
+font_size = 40
+outline_size = 0
+
 [node name="Label3D2" type="Label3D" parent="Scores" unique_id=2070526410]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.76977, -1.7438556, -5.8910947)
 pixel_size = 0.01
@@ -68,3 +80,48 @@ text = "0"
 font = ExtResource("8_uhsg0")
 font_size = 35
 outline_size = 0
+
+[node name="Ui" type="Control" parent="." unique_id=1062905167]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Ui" unique_id=756182723]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -423.0
+offset_top = -165.0
+offset_right = 422.0
+offset_bottom = 6.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("8_uhsg0")
+theme_override_font_sizes/font_size = 163
+text = "Game Over"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="Ui" unique_id=1970226540]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -50.0
+offset_top = -227.0
+offset_right = 53.0
+offset_bottom = -166.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("8_uhsg0")
+theme_override_font_sizes/font_size = 36
+text = "Retry?"
+script = ExtResource("9_l3tqr")
