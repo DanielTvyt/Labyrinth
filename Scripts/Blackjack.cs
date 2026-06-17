@@ -14,6 +14,8 @@ public partial class Blackjack : Node3D
 
     public int playingMode = PLAYER_PREP;
 
+    [Export]
+    Control GameOverScreen;
 
     [Export]
 	private Scores ui;
@@ -34,7 +36,7 @@ public partial class Blackjack : Node3D
 	private List<Card> dealerCards = new();
 
 	private float cardDelay = 0.5f;
-    private float countdown = 2f;
+    private float countdown = 1f;
 
     private float cardSpacing = 0.5f;
 
@@ -211,6 +213,7 @@ public partial class Blackjack : Node3D
         {
             flicker.PlayerLost();
             camera.PivotUp();
+            GameOverScreen.Visible = true;
             return false;
         }
         flicker.PlayerWon();

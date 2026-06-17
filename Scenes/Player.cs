@@ -5,7 +5,7 @@ public partial class Player : CharacterBody3D
     public Vector2 mouse = new Vector2(0, 0);
     // How fast the player moves in meters per second.
     [Export]
-    public int Speed { get; set; } = 14;
+    public int Speed { get; set; } = 7;
     // The downward acceleration when in the air, in meters per second squared.
     [Export]
     public int FallAcceleration { get; set; } = 75;
@@ -32,10 +32,11 @@ public partial class Player : CharacterBody3D
         {
             direction.Z -= 1.0f;
         }
-        if (Input.IsActionPressed("keypress_space") && IsOnFloor())
-        {
-            direction.Y += 1.0f;
-        }
+        //wenn man springen an haben will
+       // if (Input.IsActionPressed("keypress_space") && IsOnFloor())
+       // {
+       //     direction.Y += 1.0f;
+       // }
 
         if (direction != Vector3.Zero)
         {
@@ -51,7 +52,7 @@ public partial class Player : CharacterBody3D
         _targetVelocity.Z = direction.Z * Speed;
 
         // Vertical velocity
-        if (!IsOnFloor()) // If in the air, fall towards the floor. Literally gravity
+        if (!IsOnFloor()) //Literally gravity
         {
             _targetVelocity.Y -= FallAcceleration * (float)delta;
         }

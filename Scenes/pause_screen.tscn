@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://fdoqewhajn1n"]
+[gd_scene format=3 uid="uid://ca0spga86r4wy"]
 
-[ext_resource type="Script" uid="uid://cjpeus2sfgwm0" path="res://scenes/Area2d.cs" id="1_gchx3"]
+[ext_resource type="Script" uid="uid://cjpeus2sfgwm0" path="res://Scenes/Area2d.cs" id="1_gchx3"]
 
 [sub_resource type="CSharpScript" id="CSharpScript_gchx3"]
 script/source = "using Godot;
