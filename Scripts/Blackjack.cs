@@ -178,10 +178,10 @@ public partial class Blackjack : Node3D
         {
             if (!card.IsFaceUp)
             {
-                if (card.GetValue() + score == 21)
+                if (card.GetValue() + score == 21 || card.GetValue() == 10 && score == 1)
                 {
                     card.FlipCard();
-                    GetDealerScore();
+                    return GetDealerScore();
                 }
                 continue;
             }
@@ -202,6 +202,10 @@ public partial class Blackjack : Node3D
         if (score > 21)
         {
             dealerBusted = true;
+            playingMode = GAME_OVER;
+        }
+        if (score == 21)
+        {
             playingMode = GAME_OVER;
         }
         return score;
