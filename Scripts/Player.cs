@@ -60,6 +60,16 @@ public partial class Player : CharacterBody3D
         // Moving the character
         Velocity = _targetVelocity.Rotated(Vector3.ModelTop, Rotation.Y);
         MoveAndSlide();
+        for (int i = 0; i < GetSlideCollisionCount(); i++)
+        {
+            var collision = GetSlideCollision(i);
+            //GD.Print("I collided with ", ((Node)collision.GetCollider()).Name);
+            if (((Node)collision.GetCollider()).Name == "EndPoint" || ((Node)collision.GetCollider()).Name == "EndPoint2")
+            {
+                Input.MouseMode = Input.MouseModeEnum.Visible;
+                GetTree().ChangeSceneToFile("res://Scenes/Win.tscn");
+            }
+        }
     }
     public override void _Input(InputEvent inputEvent)
     {
@@ -74,5 +84,4 @@ public partial class Player : CharacterBody3D
             RotateObjectLocal(new Vector3(0, -1, 0), mouse.X * 0.01f);
         }
     }
-    
 }

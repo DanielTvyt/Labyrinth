@@ -218,7 +218,7 @@ public partial class Blackjack : Node3D
         }
         flicker.PlayerWon();
 
-        GetTree().ChangeSceneToFile("res://Main.tscn");
+        GetTree().ChangeSceneToFile("res://Scenes/Main.tscn");
 
         return true;
     }
