@@ -29,7 +29,7 @@ public partial class Enemy : CharacterBody3D
 
         Velocity = direction * speed * (float)delta * 100;
 
-        
+        Rotation = new Vector3(0, Mathf.Atan2(direction.X, direction.Z) + (float)Math.PI * 0.5f, 0);
 
         MoveAndSlide();
         for (int i = 0; i < GetSlideCollisionCount(); i++)

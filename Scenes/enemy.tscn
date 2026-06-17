@@ -1,6 +1,7 @@
 [gd_scene format=4 uid="uid://benvdehqs4me8"]
 
 [ext_resource type="Script" uid="uid://cgfebf84yerid" path="res://Scripts/Enemy.cs" id="1_hghv2"]
+[ext_resource type="Script" uid="uid://cewpftgapab48" path="res://Scripts/Spinninig.cs" id="2_1f0kj"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pjvh5"]
 resource_name = "Material.001"
@@ -49,6 +50,7 @@ data = PackedVector3Array(0.5335986, 3.4822268, -0.8168735, 1.9261523, 2.9694953
 script = ExtResource("1_hghv2")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=365772637]
+script = ExtResource("2_1f0kj")
 
 [node name="Cube" type="MeshInstance3D" parent="MeshInstance3D" unique_id=532440998]
 transform = Transform3D(0.735, 0, 0, 0, 0.735, 0, 0, 0, 0.735, 0, 0.058981895, 0.0020838082)
